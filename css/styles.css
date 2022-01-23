@@ -731,22 +731,28 @@ body {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
+  padding-top: 8px;
+  padding-right: 8px;
+
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
   display: flex;
   position: absolute;
-  cursor: pointer;
+  flex-direction: row-reverse;
 }
 
 .icon-modal {
   position: absolute;
   width: 30px;
   height: 30px;
+  padding: 9px;
 
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
   box-sizing: border-box;
 }
 
