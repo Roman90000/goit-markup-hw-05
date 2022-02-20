@@ -731,6 +731,7 @@ body {
   width: 100vw;
   height: 100vh;
   top: 0px;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -741,6 +742,8 @@ body {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
+  padding-top: 8px;
+  padding-right: 8px;
 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -749,16 +752,16 @@ body {
 
   display: flex;
   position: absolute;
+  flex-direction: row-reverse;
 }
 
 .modal-close {
   position: absolute;
-  top: 8px;
-  right: 8px;
   cursor: pointer;
   background: #ffffff;
   box-sizing: border-box;
   border: none;
+  padding: 0px;
 }
 
 .icon-modal {
